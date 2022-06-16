@@ -1,0 +1,14 @@
+services:
+  dummy:
+    build: .
+    deploy:
+      mode: replicated
+      replicas: 2
+    ports:
+    - "8080"
+  nginx:
+    build: ./docker/nginx/.
+    links:
+      - dummy
+    ports:
+      - "8080:8080"
