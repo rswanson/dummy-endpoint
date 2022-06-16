@@ -1,0 +1,21 @@
+{
+  "name": "dummy-endpoint",
+  "version": "1.0.0",
+  "description": "a dummy endpoint ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rswanson/dummy-endpoint.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rswanson/dummy-endpoint/issues"
+  },
+  "homepage": "https://github.com/rswanson/dummy-endpoint#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
